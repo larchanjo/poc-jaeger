@@ -1,5 +1,5 @@
 profile: service
 defaultPackage: recommendation.service
 ---
-testFramework: spek
-sourceLanguage: kotlin
+testFramework: junit
+sourceLanguage: java

@@ -13,5 +13,5 @@
 2. Open the url `http://localhost:8500`
 
 
-[Jager]: https://www.jaegertracing.io/https://www.jaegertracing.io/
+[Jaeger]: https://www.jaegertracing.io/https://www.jaegertracing.io/
 [Consul]: https://www.consul.io/

@@ -1,5 +1,5 @@
 profile: service
 defaultPackage: catalogue.service
 ---
-testFramework: spek
-sourceLanguage: kotlin
+testFramework: junit
+sourceLanguage: java

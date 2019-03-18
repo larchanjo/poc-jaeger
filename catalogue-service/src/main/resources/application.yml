@@ -1,24 +1,20 @@
+---
 micronaut:
     application:
         name: catalogue-service
     server:
-        port: 8081
-    config-client:
-        enabled: true
-    caches:
-        discovery-client:
-            enabled: false
+      port: 8082
+
+---
 consul:
-    client:
-        registration:
-            enabled: true
-        defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
-endpoints:
-    health:
-        enabled: true
-        sensitive: false
+  client:
+    registration:
+      enabled: true
+    defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
+
+---
 tracing:
-    jaeger:
-        enabled: true
-        sampler:
-            probability: 1
+  jaeger:
+    enabled: true
+    sampler:
+      probability: 1
