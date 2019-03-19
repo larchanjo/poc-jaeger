@@ -21,6 +21,6 @@ This is a simple poc using [Jaeger] and [Micronaut]
 3. Start `recommendation-service`
 4. Open the url `http://localhost:8081/recommendations`
 
-[Jaeger]: https://www.jaegertracing.io/https://www.jaegertracing.io/
-[Consul]: https://www.consul.io/
-[Micronaut]: http://micronaut.io
+[Jaeger]: https://www.jaegertracing.io
+[Consul]: https://www.consul.io
+[Micronaut]: https://micronaut.io
